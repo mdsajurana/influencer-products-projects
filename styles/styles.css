@@ -66,6 +66,10 @@
     width: 196px;
 }
 
+.icon{
+    color: white;
+}
+
 @media screen and (max-width: 576px) {
     .header-bg{
         width: 70%;
