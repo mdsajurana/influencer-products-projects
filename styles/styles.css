@@ -56,6 +56,7 @@
 .rating{
     font-size: 14px;
     columns: rgba(94, 99, 102, 1);
+    margin-top: 10px;
 }
 
 .popular-description{
