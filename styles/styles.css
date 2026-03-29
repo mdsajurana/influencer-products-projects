@@ -21,3 +21,10 @@
     height: 475px;
     width: 475px;
 }
+
+@media screen and (max-width: 576px) {
+    .header-bg{
+        width: 70%;
+        margin: 15px;
+    }
+}

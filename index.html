@@ -9,36 +9,50 @@
 
     <!-- tailwind CDN -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- font awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body class="poppins-regular container">
 
     <head class="mt-[90px]">
         <nav class="flex justify-between mt-[50px]">
+            <span class="block md:hidden"><i class="fa-solid fa-bars"></i></span>
             <h3 class="text-[24px] text-[#3A3A3A] font-bold">Influencer products</h3>
-            <ul class="font-semibold text-[#3A3A3A] flex gap-[34px]">
+            <ul class="font-semibold text-[#3A3A3A] gap-[34px] hidden md:flex">
                 <li>Home</li>
                 <li>Products</li>
                 <li>Sign up</li>
                 <li>Log in</li>
-                <li></li>
-                <li></li>
+                <li>
+                    <i class="fa-brands fa-sistrix"></i>
+                </li>
+                <li>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </li>
             </ul>
+            <span class="block md:hidden"><i class="fa-solid fa-cart-shopping"></i></span>
         </nav>
-        <div class="flex gap-[130px] mt-[80px] items-center">
-            <div>
-                <h2 class="font-bold text-[52px] text-[#3A3A3A] w-[582px]">
+        <div class="max-sm:flex-col flex gap-[130px] mt-[82px] items-center max-sm:gap-[25px] max-sm:mt-6">
+            <div class="max-sm:order-1 max-sm:text-center">
+                <h2 class="font-bold text-[52px] text-[#3A3A3A] w-[582px] max-sm:text-[28px] max-sm:w-[424px]">
                     Start your Journey as
                     Influencer
                 </h2>
-                <p class="font-semibold text-[#3A3A3A] w-[505px]">
+                <p class="font-semibold text-[#3A3A3A] w-[505px] max-sm:text-[14px] max-sm:w-[322px] max-sm:ml-9">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem vestibulum sed scelerisque eros. Lectus
                     faucibus.
                 </p>
-                <button class="bg-[#E02C6D] text-white font-bold pl-[25px] pt-[11px] pb-[11px] pr-[57px] rounded-[41px] mt-[25px]">Preebook now</button>
+                <button
+                    class="bg-[#E02C6D] text-white font-bold pl-[25px] pt-[11px] pb-[11px] pr-[23px] rounded-[41px] mt-[25px]">Preebook
+                    now
+                    <i class="fa-solid fa-arrow-right ml-[13px]"></i></button>
             </div>
             <div class="header-bg">
-                <img src="assets/images/main-camera.png" alt="camera image in header">
+                <img src="assets/images/main-camera.png" alt="camera image in header" class="max-sm:w-[80%] max-sm:h-[70%] max-sm:order-2">
             </div>
         </div>
     </head>
